@@ -154,7 +154,7 @@ Requires: BH, Rcpp, rlang
 
 Package: lifecycle
 Source: CRAN
-Version: 1.0.0
+Version: 1.0.0 
 Hash: df8649860c43571aab68cc73a2a02807
 Requires: glue, rlang
 
