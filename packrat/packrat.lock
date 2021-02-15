@@ -13,10 +13,10 @@ Source: CRAN
 Version: 2.2.2
 Hash: b2366cd9d2f3851a5704b4e192b985c2
 
-Package: Rcpp
-Source: CRAN
-Version: 0.12.11
-Hash: 2ee22f3b5e75dec80b1d8eca61cd96d8
+//Package: Rcpp
+//Source: CRAN
+//Version: 0.12.11
+//Hash: 2ee22f3b5e75dec80b1d8eca61cd96d8
 
 Package: askpass
 Source: CRAN
