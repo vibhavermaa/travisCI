@@ -10,13 +10,13 @@ Hash: fc53be86f0b712d3de03fef95893d710
 
 Package: R6
 Source: CRAN
-Version: 2.2.2
+Version: 2.4.1
 Hash: b2366cd9d2f3851a5704b4e192b985c2
 
-//Package: Rcpp
-//Source: CRAN
-//Version: 0.12.11
-//Hash: 2ee22f3b5e75dec80b1d8eca61cd96d8
+Package: Rcpp
+Source: CRAN
+Version: 1.0.5
+Hash: 2ee22f3b5e75dec80b1d8eca61cd96d8
 
 Package: askpass
 Source: CRAN
@@ -133,7 +133,7 @@ Package: httpuv
 Source: CRAN
 Version: 1.3.5
 Hash: e2d5ec877601df43efe66e9096d0fc93
-Requires: R6, Rcpp, BH, later, promises
+Requires: BH, R6, Rcpp, later, promises
 
 Package: httr
 Source: CRAN
@@ -150,7 +150,7 @@ Package: later
 Source: CRAN
 Version: 1.1.0.1
 Hash: 0c6d0dbad70a1b8698919b5d70e8a430
-Requires: Rcpp, BH, rlang
+Requires: BH, Rcpp, rlang
 
 Package: lifecycle
 Source: CRAN
@@ -189,7 +189,7 @@ Package: pillar
 Source: CRAN
 Version: 1.4.4
 Hash: a49a235ae5deaefbb3f6053d67dc64d0
-Requires: crayon, cli, fansi, rlang, utf8, vctrs
+Requires: crayon, fansi, rlang, utf8, cli, vctrs
 
 Package: pingr
 Source: CRAN
@@ -201,7 +201,7 @@ Package: pkgbuild
 Source: CRAN
 Version: 1.1.0
 Hash: 3627518e6ba9330b1318a1b8cd213951
-Requires: R6, crayon, withr, callr, cli, desc, prettyunits, rprojroot
+Requires: R6, crayon, prettyunits, withr, rprojroot, cli, desc, callr
 
 Package: pkgconfig
 Source: CRAN
@@ -212,8 +212,8 @@ Package: pkgload
 Source: CRAN
 Version: 1.1.0
 Hash: a65ac8a100a65cff8e5e4a122d2a51af
-Requires: crayon, withr, cli, desc, pkgbuild, rlang, rprojroot,
-    rstudioapi
+Requires: crayon, rlang, rstudioapi, withr, rprojroot, cli, desc,
+    pkgbuild
 
 Package: png
 Source: CRAN
@@ -244,7 +244,7 @@ Package: promises
 Source: CRAN
 Version: 1.1.1
 Hash: 0f58aaef1b398b33f902cd50cb50d2d0
-Requires: R6, Rcpp, magrittr, later, rlang
+Requires: R6, Rcpp, magrittr, rlang, later
 
 Package: ps
 Source: CRAN
@@ -282,9 +282,9 @@ Package: shiny
 Source: github
 Version: 1.0.3.9002
 Hash: 53ffa8a548c3c43a3cead240b2622217
-Requires: R6, crayon, digest, jsonlite, mime, sourcetools, withr,
-    xtable, httpuv, htmltools, commonmark, fastmap, glue, later,
-    promises, rlang
+Requires: R6, commonmark, crayon, digest, fastmap, glue, jsonlite,
+    mime, rlang, sourcetools, withr, xtable, htmltools, later,
+    promises, httpuv
 GithubRepo: shiny
 GithubUsername: rstudio
 GithubRef: master
@@ -294,9 +294,9 @@ Package: shinytest
 Source: github
 Version: 1.1.1
 Hash: df2aa02abcdb51c33da524f72f97061f
-Requires: R6, assertthat, crayon, digest, jsonlite, parsedate, pingr,
-    rematch, withr, httpuv, debugme, httr, testthat, htmlwidgets,
-    shiny, webdriver, callr, rstudioapi
+Requires: R6, assertthat, crayon, digest, jsonlite, rematch,
+    rstudioapi, withr, debugme, callr, pingr, htmlwidgets, httpuv,
+    httr, shiny, webdriver, testthat, parsedate
 GithubRepo: shinytest
 GithubUsername: rstudio
 GithubRef: master
@@ -326,15 +326,15 @@ Package: testthat
 Source: CRAN
 Version: 1.0.2
 Hash: 88d5291104227f9dc2e7c7c1d0eb6c74
-Requires: R6, crayon, digest, magrittr, praise, withr, cli, ellipsis,
-    evaluate, pkgload, rlang
+Requires: R6, crayon, digest, evaluate, magrittr, praise, rlang, withr,
+    cli, ellipsis, pkgload
 
 Package: tibble
 Source: CRAN
 Version: 3.0.1
 Hash: 00d3817b8530e9ce9b465aeef293a011
-Requires: crayon, magrittr, cli, ellipsis, fansi, lifecycle, pillar,
-    pkgconfig, rlang, vctrs
+Requires: crayon, fansi, magrittr, pkgconfig, rlang, cli, ellipsis,
+    lifecycle, vctrs, pillar
 
 Package: utf8
 Source: CRAN
@@ -345,14 +345,14 @@ Package: vctrs
 Source: CRAN
 Version: 0.3.1
 Hash: bd8a497a3228d001519a2234d718c19c
-Requires: digest, ellipsis, glue, rlang
+Requires: digest, glue, rlang, ellipsis
 
 Package: webdriver
 Source: github
 Version: 1.0.2.9002
 Hash: 0fc511784de26345add1defa6adbbc49
-Requires: R6, base64enc, curl, jsonlite, withr, debugme, httr,
-    showimage, callr
+Requires: R6, base64enc, curl, jsonlite, withr, debugme, showimage,
+    callr, httr
 GithubRepo: webdriver
 GithubUsername: rstudio
 GithubRef: master
