@@ -264,7 +264,7 @@ Requires: tibble
 
 Package: rlang
 Source: CRAN
-Version: 0.4.9
+Version: 0.4.10
 Hash: ae313ae34e2f40b6d8be5ede38c65c6b
 
 Package: rprojroot
