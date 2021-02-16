@@ -230,16 +230,6 @@ Source: CRAN
 Version: 1.1.1
 Hash: 20669cd8bb8b3207f6371edf8cf510af
 
-Package: processx
-Source: github
-Version: 3.4.5 
-Hash: 6d10a8c12f381b03e07f8186079fcc33
-Requires: R6, ps
-GithubRepo: processx
-GithubUsername: r-lib
-GithubRef: master
-GithubSha1: 56099bc9824f3a36342e279029fd0791b6ac9cc3
-
 
 Package: promises
 Source: CRAN
