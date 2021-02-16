@@ -232,9 +232,10 @@ Hash: 20669cd8bb8b3207f6371edf8cf510af
 
 Package: processx
 Source: CRAN
-Version: 1.1.1
+Version: 3.4.5
 Hash: 6d10a8c12f381b03e07f8186079fcc33
 Requires: R6, ps
+
 
 Package: promises
 Source: CRAN
