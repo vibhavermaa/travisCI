@@ -8,6 +8,11 @@ Source: CRAN
 Version: 1.72.0-3
 Hash: fc53be86f0b712d3de03fef95893d710
 
+Package: RSelenium
+Source: CRAN
+Version: 1.7.7
+Hash: 74834714fd6df6a30928a368bae20347
+
 Package: R6
 Source: CRAN
 Version: 2.4.1
